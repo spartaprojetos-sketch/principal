@@ -1,0 +1,26 @@
+SPARTA PROJETOS - SITE V4 - IDENTIDADE E CONVERSÃO
+
+PRINCIPAIS NOVIDADES
+- Novo logotipo SPARTA PROJETOS aplicado ao site
+- Nova identidade visual azul, mais premium e consistente com a marca
+- Hero principal redesenhado com CTA forte para WhatsApp
+- Faixa de credibilidade com experiência, área de atendimento e CREA-RJ
+- Nova seção “Por que escolher a Sparta”
+- Nova seção de reputação para aproveitar as avaliações do Google sem inventar nota ou número de avaliações
+- FAQ para ajudar SEO e conversão
+- SEO técnico melhorado: Open Graph, canonical, favicon e dados estruturados Schema.org
+- Portfólio real da V3 preservado, com filtros e lightbox
+- Site responsivo para computador, tablet e celular
+
+ATUALIZAÇÃO NO GITHUB
+1. Extraia este ZIP no computador.
+2. No repositório, permaneça na branch Site-institucional-da-Sparta-Projetos.
+3. Use Add file > Upload files.
+4. Envie index.html, styles.css, script.js, SPARTA_PROJETOS_LOGO.webp, favicon.png e a pasta images.
+5. O arquivo SPARTA_LOGO.png antigo pode permanecer, mas não é mais usado pelo site.
+6. Faça Commit changes diretamente na mesma branch.
+7. NÃO apague o arquivo CNAME que já existe no GitHub. Ele mantém o domínio spartaprojetos.com.br associado ao GitHub Pages.
+8. Aguarde o deployment ficar verde e atualize o site com Ctrl+F5.
+
+OBSERVAÇÃO SOBRE AS AVALIAÇÕES
+A V4 inclui uma área específica para reputação, mas não publica notas, quantidade de avaliações ou textos de clientes sem confirmação. Assim evitamos informação desatualizada ou inventada. Podemos inserir os melhores depoimentos reais em uma próxima atualização.

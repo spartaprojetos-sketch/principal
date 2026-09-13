@@ -3,20 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sparta Projetos — há 25 anos oferecendo soluções em segurança eletrônica, CFTV, alarmes, controle de acesso, interfonia, redes e automação no Rio de Janeiro e Grande Rio." />
+  <meta name="description" content="Sparta Projetos — mais de 25 anos oferecendo soluções em segurança eletrônica, CFTV, alarmes, controle de acesso, interfonia, redes, Wi‑Fi e automação no Rio de Janeiro e Grande Rio." />
   <meta name="keywords" content="segurança eletrônica, CFTV, câmeras, alarmes, controle de acesso, interfonia, redes, Wi-Fi, cabeamento estruturado, portões automáticos, Rio de Janeiro" />
   <meta name="author" content="Sparta Projetos" />
-  <title>Sparta Projetos | Segurança Eletrônica e Tecnologia</title>
+  <title>Sparta Projetos | Segurança Eletrônica, CFTV e Automação no RJ</title>
+  <meta name="theme-color" content="#02249e" />
+  <meta property="og:title" content="Sparta Projetos | Segurança Eletrônica, CFTV e Automação no RJ" />
+  <meta property="og:description" content="Projetos, instalação e manutenção em CFTV, alarmes, controle de acesso, interfonia, redes e automação no Rio de Janeiro e Grande Rio." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://spartaprojetos.com.br/" />
+  <meta property="og:image" content="https://spartaprojetos.com.br/SPARTA_PROJETOS_LOGO.webp" />
+  <link rel="canonical" href="https://spartaprojetos.com.br/" />
+  <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ProfessionalService",
+    "name":"Sparta Projetos",
+    "url":"https://spartaprojetos.com.br/",
+    "logo":"https://spartaprojetos.com.br/SPARTA_PROJETOS_LOGO.webp",
+    "telephone":"+55 21 96932-6848",
+    "email":"comercial@spartaprojetos.com.br",
+    "areaServed":["Rio de Janeiro","Grande Rio"],
+    "sameAs":["https://www.instagram.com/spartaseguranca/"]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#inicio" aria-label="Sparta Projetos">
-        <img src="SPARTA_LOGO.png" alt="Logotipo Sparta Security" />
+        <img src="SPARTA_PROJETOS_LOGO.webp" alt="Logotipo Sparta Projetos" />
         <div>
           <strong>SPARTA PROJETOS</strong>
           <span>Segurança • Tecnologia • Confiança</span>
@@ -28,9 +49,10 @@
       <nav class="menu">
         <a href="#inicio">Início</a>
         <a href="#sobre">Quem somos</a>
-        <a href="#missao">Missão e Valores</a>
         <a href="#servicos">Serviços</a>
-        <a href="#projetos">Projetos</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#projetos">Portfólio</a>
+        <a href="#avaliacoes">Avaliações</a>
         <a href="#contato">Contato</a>
       </nav>
     </div>
@@ -40,30 +62,39 @@
     <section class="hero" id="inicio">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">25 anos de experiência</span>
-          <h1>Segurança eletrônica e tecnologia para proteger o que importa.</h1>
+          <span class="eyebrow hero-eyebrow">Mais de 25 anos de experiência</span>
+          <h1>Segurança, tecnologia e confiança em cada projeto.</h1>
           <p>
-            Projetos, instalação e manutenção de soluções para residências, condomínios e empresas
-            no Rio de Janeiro e Grande Rio.
+            Soluções profissionais em <strong>CFTV, alarmes, controle de acesso, interfonia, redes e automação</strong> para residências, condomínios e empresas no Rio de Janeiro e Grande Rio.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://wa.me/5521969326848?text=Olá%20Sparta%20Projetos!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener">Solicitar orçamento</a>
-            <a class="btn btn-secondary" href="#servicos">Conhecer serviços</a>
+            <a class="btn btn-primary" href="https://wa.me/5521969326848?text=Olá%20Sparta%20Projetos!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener">Solicitar orçamento no WhatsApp</a>
+            <a class="btn btn-ghost" href="#projetos">Ver projetos realizados</a>
           </div>
-          <div class="trust-row">
+          <div class="hero-proof">
             <span>✓ Atendimento personalizado</span>
-            <span>✓ Soluções sob medida</span>
-            <span>✓ Rio de Janeiro e Grande Rio</span>
+            <span>✓ Projeto sob medida</span>
+            <span>✓ Suporte pós-instalação</span>
           </div>
         </div>
 
-        <div class="hero-card">
-          <img src="SPARTA_LOGO.png" alt="Sparta Security" />
-          <div class="hero-card-text">
-            <strong>Sparta Projetos</strong>
-            <span>Eficiência • Eficácia • Excelência • Transparência • Qualidade</span>
+        <div class="hero-visual" aria-label="Marca Sparta Projetos">
+          <div class="logo-glow"></div>
+          <img src="SPARTA_PROJETOS_LOGO.webp" alt="Sparta Projetos" fetchpriority="high" />
+          <div class="hero-badge">
+            <strong>Padrão Sparta</strong>
+            <span>Eficiência • Excelência • Transparência • Qualidade</span>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Diferenciais principais">
+      <div class="container proof-grid">
+        <div><strong>25+ anos</strong><span>de experiência</span></div>
+        <div><strong>RJ + Grande Rio</strong><span>atendimento regional</span></div>
+        <div><strong>Soluções completas</strong><span>do projeto ao suporte</span></div>
+        <div><strong>CREA-RJ</strong><span>profissionais habilitados</span></div>
       </div>
     </section>
 
@@ -75,7 +106,7 @@
         </div>
         <div class="prose">
           <p>
-            A <strong>Sparta Projetos</strong> atua há 25 anos com soluções em segurança eletrônica,
+            A <strong>Sparta Projetos</strong> atua há mais de 25 anos com soluções em segurança eletrônica,
             infraestrutura de redes e automação. Nosso trabalho é desenvolvido com foco em qualidade,
             confiabilidade, organização e atendimento próximo ao cliente.
           </p>
@@ -83,7 +114,7 @@
             Atendemos residências, condomínios e empresas no Rio de Janeiro e Grande Rio, desde o
             levantamento técnico até a instalação, configuração e suporte.
           </p>
-          <p class="signature"><strong>Alex Botelho</strong><br>CEO / Responsável Técnico</p>
+          <p class="signature"><strong>Alex Botelho</strong><br>CEO • Sparta Projetos</p>
         </div>
       </div>
     </section>
@@ -188,6 +219,24 @@
             <h3>Consultoria e projetos</h3>
             <p>Levantamento técnico e dimensionamento de soluções adequadas às necessidades e ao orçamento de cada cliente.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why" id="diferenciais">
+      <div class="container">
+        <div class="section-heading two-col-heading">
+          <div>
+            <span class="eyebrow">Por que escolher a Sparta</span>
+            <h2>Projeto bem executado começa antes da instalação.</h2>
+          </div>
+          <p>Não trabalhamos com solução genérica. Avaliamos o ambiente, a necessidade e o orçamento para indicar o que realmente faz sentido para cada cliente.</p>
+        </div>
+        <div class="why-grid">
+          <article class="why-card"><span>01</span><h3>Levantamento técnico</h3><p>Análise do local e definição dos pontos, equipamentos, infraestrutura e melhor estratégia de instalação.</p></article>
+          <article class="why-card"><span>02</span><h3>Instalação organizada</h3><p>Acabamento profissional, identificação de cabos, organização de racks e atenção aos detalhes.</p></article>
+          <article class="why-card"><span>03</span><h3>Tecnologia adequada</h3><p>Equipamentos escolhidos de acordo com a aplicação, evitando gastos desnecessários ou soluções subdimensionadas.</p></article>
+          <article class="why-card"><span>04</span><h3>Suporte próximo</h3><p>Atendimento direto para configuração, manutenção, expansão e orientação após a entrega do serviço.</p></article>
         </div>
       </div>
     </section>
@@ -361,10 +410,44 @@
       </div>
     </section>
 
+    <section class="section reviews-section" id="avaliacoes">
+      <div class="container reviews-grid">
+        <div>
+          <span class="eyebrow light">Reputação</span>
+          <h2>A confiança dos clientes também faz parte do nosso portfólio.</h2>
+          <p>As avaliações públicas no Google ajudam novos clientes a conhecer a experiência de quem já contratou a Sparta Projetos. Transparência e confiança antes mesmo do primeiro contato.</p>
+          <a class="btn btn-white" href="https://www.google.com/search?q=Sparta+Projetos+Rio+de+Janeiro+avalia%C3%A7%C3%B5es" target="_blank" rel="noopener">Ver avaliações da Sparta no Google</a>
+        </div>
+        <div class="review-showcase">
+          <div class="stars" aria-label="Cinco estrelas">★★★★★</div>
+          <blockquote>“Antes de contratar, veja o que nossos clientes dizem sobre atendimento, qualidade e resultado.”</blockquote>
+          <div class="review-note">
+            <strong>Avaliações reais</strong>
+            <span>Consulte os depoimentos diretamente no Google.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Visualização ampliada da foto">
       <button class="lightbox-close" type="button" aria-label="Fechar imagem">×</button>
       <img class="lightbox-image" src="" alt="Foto ampliada do portfólio" />
     </div>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-grid">
+        <div>
+          <span class="eyebrow">Dúvidas frequentes</span>
+          <h2>Antes do orçamento, algumas respostas rápidas.</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>A Sparta atende residências, condomínios e empresas?</summary><p>Sim. Os projetos são dimensionados de acordo com o tipo de imóvel, a necessidade de segurança e a infraestrutura existente.</p></details>
+          <details><summary>Vocês fazem manutenção em sistemas já instalados?</summary><p>Sim. Avaliamos a instalação existente, identificamos falhas e recomendamos correções, melhorias ou expansão quando necessário.</p></details>
+          <details><summary>É possível acessar as câmeras pelo celular?</summary><p>Sim. Em sistemas compatíveis, fazemos a configuração do acesso remoto e orientamos o cliente sobre o uso do aplicativo.</p></details>
+          <details><summary>Como solicitar um orçamento?</summary><p>Envie uma mensagem pelo WhatsApp informando o tipo de serviço e, se possível, fotos ou detalhes do local. A partir daí avaliamos o melhor caminho para o projeto.</p></details>
+        </div>
+      </div>
+    </section>
 
     <section class="section cta" id="contato">
       <div class="container cta-grid">
@@ -398,16 +481,16 @@
 
   <footer>
     <div class="container footer-grid">
-      <div>
-        <strong>Sparta Projetos</strong>
-        <p>Segurança eletrônica, tecnologia e automação.</p>
+      <div class="footer-brand">
+        <img src="SPARTA_PROJETOS_LOGO.webp" alt="Sparta Projetos" />
+        <div><strong>Sparta Projetos</strong><p>Segurança eletrônica, tecnologia e automação.</p></div>
       </div>
       <p>© <span id="year"></span> Sparta Projetos. Todos os direitos reservados.</p>
     </div>
   </footer>
 
   <a class="whatsapp-float" href="https://wa.me/5521969326848?text=Olá%20Sparta%20Projetos!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-    WhatsApp
+    <span>●</span> Orçamento no WhatsApp
   </a>
 
   <script src="script.js"></script>
